@@ -1,0 +1,15 @@
+[package]
+name = "wgpu_tut"
+version = "0.1.0"
+authors = ["fredlangva <fredlangva@yahoo.com>"]
+edition = "2018"
+
+[features]
+default = []
+dx12 = ["wgpu/dx12"]
+
+[dependencies]
+wgpu = "0.2.2"
+glsl-to-spirv = "0.1"
+cgmath = "0.17"
+tobj = "0.1.7"
